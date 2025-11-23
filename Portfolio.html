@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Portfolio de Lucie Flohic</title>
 </head>
+
 <body>
     <header id="accueil">
         <div class="logo">
             <a href="#accueil" title="Revenir à l'accueil" aria-label="Revenir à l'accueil">
-            <figure class="image is-96x96">
-                <img src="photos/logo.png" alt="logo d'un cigne avec une couronne">
-            </figure>
+                <figure class="image is-96x96">
+                    <img src="photos/logo.png" alt="logo d'un cigne avec une couronne">
+                </figure>
             </a>
         </div>
-        <div class="menu">
-            <button class="barres" title="Ouvrir le menu de navigation" aria-label="Ouvrir le menu de navigation">
-                <i class="fa-solid fa-bars fa-lg"></i>
-            </button>
-            <nav class="content">
-                <button class="croix"  title="Fermer le menu de navigation" aria-label="Fermer le menu de navigation"><i class="fa-solid fa-xmark"></i></button>
+        <nav>
+            <box class="bordure">
                 <ul>
-                    <li><a href="#Biographie"><h6 class="liens">MiniBio</h6></a></li>
-                    <li><a href="#Centres d'interets"><h6 class="liens">Centres d’intérêts</h6></a></li>
-                    <li><a href="#Compétences"><h6 class="liens">Compétences</h6></a></li>
-                    <li><a href="#Parcours"><h6 class="liens">Parcours</h6></a></li>
-                    <li><a href="#projets"><h6 class="liens">Projets</h6></a></li>
-                    <li><a href="#Contact"><h6 class="liens">Contact</h6></a></li>
+                    <li><a href="Portfolio.html">
+                            <p><span>Accueil</span></p>
+                        </a></li>
+                    <li><a href="projets.html">
+                            <p>Projets</p>
+                        </a></li>
+                    <li><a href="contacts.html">
+                            <p>Contact</p>
+                        </a></li>
                 </ul>
-            </nav>
-        </div>
+            </box>
+        </nav>
         <div class="mainpage">
             <img src="photos/horloge.svg" alt="" class="horloge">
             <h1>Lucie Flohic</h1>
             <h2>Portfolio</h2>
         </div>
     </header>
-    
+
     <main>
         <div class="Bio" id="Biographie">
             <box class="bordure">
@@ -53,45 +53,45 @@
                     <img class="petitp" src="photos/petit.png" alt="petite image de Lucie avec un cadre ancien">
                     <div class="h">
                         <h3>Enchantée !</h3>
-                        <p>Je m'appelle Lucie, une poupée de porcelaine délicate et raffinée.</p>
-                        <p>Depuis toute petite, mon imagination se transporte à travers mes jouets, leur faisant vivre diverses histoires. </p>
-                        <p>En grandissant, mon intérêt pour la mode s’est développé et avec lui ma créativité. 
-                        Aujourd’hui mes histoires, mes personnages et ma créativité se transportent à travers mes créations, leur donnant une signification précieuse aux yeux de la petite fille qui les a créés.</p>
+                        <p>Je m’appelle Lucie, j’ai 19 ans et je suis actuellement en deuxième année de BUT MMI (métier
+                            du multimédia et de l’internet) à l’IUT de Lannion.</p>
+                        <p>Passionnée de creation, de musique, jeux, mode et art, je suis quelqu’un qui aime construire des
+                            univers et les transporter à travers mes créations.</p>
                         <div class="cv">
-                            <h6>Mon CV est juste ici →</h6>
+                            <h6>Retrouver mon CV juste ici →</h6>
                             <a href="photos/CV.pdf" target="_blank">
-                            <figure class="button is-medium is-rounded is-responsive" title="cv" aria-label="Voir le CV">
-                                <span class="icon">
-                                    <i class="fa-solid fa-file"></i>
-                                </span>
-                            </figure>
+                                <figure class="button is-medium is-rounded is-responsive" title="cv"
+                                    aria-label="Voir le CV">
+                                    <span class="icon">
+                                        <i class="fa-solid fa-file"></i>
+                                    </span>
+                                </figure>
                             </a>
-                        </div>                    
+                        </div>
                     </div>
                 </div>
             </box>
         </div>
-        <div class="back">  </div>
+        <div class="back"> </div>
         <h4 id="Centres d'interets">Centres d’intérêts</h4>
-        <div class="bloc">
-            <h5 class="centre">Musique</h5>
-            <img src="photos/musique.png" class="passion" alt="plusieurs photos en reférence à la musique">
-        </div>
-        <div class="bloc2">
-            <h5>Cinéma</h5>
-            <img src="photos/cinema.png" class="passion2" alt="plusieurs photos en reférence au Cinéma">
-        </div>
-        <div class="bloc">
-            <h5 class="centre2">Jeux Vidéos</h5>
-            <img src="photos/jeux.png" class="passion" alt="plusieurs photos en reférence aux jeux Vidéos">
-        </div>
-        <div class="bloc2">
-            <h5>Mode</h5>
-            <img src="photos/mode.png" class="passion2" alt="plusieurs photos en reférence à la mode">
+        <div class="passions">
+            <div class="passion">
+                <img src="photos/musique.png" alt="projet création d'un site Pokemon" />
+            </div>
+            <div class="passion">
+                <img src="photos/jeux.png" alt="projet création d'un site Pokemon" />
+            </div>
+            <div class="passion">
+                <img src="photos/mode.png" alt="projet création d'un site Pokemon" />
+            </div>
+            <div class="passion">
+                <img src="photos/cinema.png" alt="projet création d'un site Pokemon" />
+            </div>
+
         </div>
 
         <h4 class="titre3" id="Compétences">Compétences</h4>
-            <div class="compétences">
+        <div class="compétences">
             <div class="outils">
                 <div class="foncé">
                     <div class="gris">
@@ -103,39 +103,41 @@
                             <i class="fa-solid fa-arrow-down" onclick="plusDivs(1)"></i>
                         </div>
                     </div>
-                </div>                       
+                </div>
             </div>
-            <div class="boite">
-                <box class="boite2">
-                    <button class="titre" title="Affiche le texte en dessous" aria-label="Affiche le texte en dessous">
-                        <h7>Intégration</h7>
-                    </button>
-                    <box class="texte">
-                        <p>Je créer des sites à l'aide d'outils tel que le <span class="has-text-weight-bold is-italic">HTML</span>, le <span class="has-text-weight-bold is-italic">CSS</span> et le <span class="has-text-weight-bold is-italic">Javascript</span>, en utilisant des logiciels tel que <span class="has-text-weight-bold is-italic">visual studio code</span> pour coder ou <span class="has-text-weight-bold is-italic">figma</span> pour le maquettage.</p>
+            <div class="boites">
+                <div class="boite">
+                    <box class="boite2"><p>Intégration - HTML / CSS / JS</p>
                     </box>
-                    <button class="titre" title="Affiche le texte en dessous" aria-label="Affiche le texte en dessous">
-                        <h7>Développement Web</h7>
-                    </button>
-                    <box class="texte">
-                        <p>Je peux créer des sites en <span class="has-text-weight-bold is-italic">PHP</span> et ainsi construire une base de donnée en <span class="has-text-weight-bold is-italic">SQL</span> connecté directement au site.</p>
+                </div>
+                <div class="boite">
+                    <box class="boite2"><p>UI Design - Figma </p>
                     </box>
-                    <button class="titre" title="Affiche le texte en dessous" aria-label="Affiche le texte en dessous">
-                        <h7>Graphisme</h7>
-                    </button>
-                    <box class="texte">
-                        <p>Je réalise des créations numériques tel que des affiches, logos etc. en utilisant des logiciels comme la <span class="has-text-weight-bold is-italic">suite affinity</span> ou la <span class="has-text-weight-bold is-italic">suite adobe</span>.</p>
+                </div>
+                <div class="boite">
+                    <box class="boite2"><P>Développement Web - SQL / PHP</P>
                     </box>
-                </box>
+                </div>
+                <div class="boite">
+                    <box class="boite2"><p>Graphisme - Affinity</p>
+                    </box>
+                </div>
             </div>
         </div>
 
         <h4 class="titre3" id="Parcours">Parcours</h4>
         <div class="Formation">
             <box class="bordure2">
-                <div class="ligne"><p>IUT Lannion, BUT MMI (métier du multimédia et de l'internet) 
-                    <br>2024 - 2027</p></div>
-                <div class="ligne"><p>Lycée LaMennais Ploërmel, Bac STI2D 
-                    <br> 2021 - 2024</p></div>
+                <div class="ligne">
+                    <p>IUT Lannion, BUT MMI (métier du multimédia et de l'internet)
+                        <br>2024 - 2027
+                    </p>
+                </div>
+                <div class="ligne">
+                    <p>Lycée LaMennais Ploërmel, Bac STI2D
+                        <br> 2021 - 2024
+                    </p>
+                </div>
             </box>
         </div>
 
@@ -143,71 +145,60 @@
             <h4 id="projets">Projets</h4>
             <div class="projets">
                 <div class="projet">
-                    <h8>MagicBall</h8>
-                    <img src="photos/pokemon.jpg" alt="projet création d'un site Pokemon"/>
-                        <div class="popup" id="popu"><a href="projet1.html" target="_blank">voir plus</a></div>
+                    <img src="photos/laconfiserie.jpg" alt="projet création d'un site de confiserie" />
+                    <a href="projets/projet1.html" target="_blank"><h8>La confiserie</h8></a>
                 </div>
-                <div class="projet">
-                    <h8>Trick Track Game</h8>
-                    <img src="photos/cars2.jpg" alt="projet création de jeu collectif" />
-                        <div class="popup" id="popu"><a href="projet2.html" target="_blank">voir plus</a></div>
+                <div class="projet2">
+                    <img src="photos/mb.png" alt="projet création d'un jeu de société" />
+                    <a href="projets/projet2.html" target="_blank"><h8>Média Bloom</h8></a>
                 </div>
-                
-                <div class="projet">
-                    <img src="photos/rabbit.jpg" alt="projet logo" />
-                    <h8>LiliPuce</h8>
-                            <div class="popup" id="popu"><a href="projet3.html" target="_blank">voir plus</a></div>
-                </div>
-                <div class="projet">
-                    <img src="photos/comics.jpg" alt="projet intéraction" />
-                    <h8>Autoportrait intéractif</h8>
-                            <div class="popup" id="popu"><a href="projet4.html" target="_blank">voir plus</a></div>
+                 <div class="projet3">
+                    <img src="photos/infographie.png" alt="projet création d'une infographie sur l'IA" />
+                    <a href="projets/projet3.html" target="_blank"><h8>Réseaux de neurones</h8></a>
                 </div>
             </div>
+            <a href="projets.html" class="plus">Voir plus →</a>
         </div>
     </main>
 
     <footer>
-    <div class="fin" id="Contact">
-        <box class="bordure3">
-            <h5>Contacts</h5>
-            <p>E-mail : lucie.flohicc@gmail.com</p>
-            <div class="rs">
-                <a href="https://www.instagram.com/_luuwzz_/" target="_blank" title="Ouvre le profil Instagram" aria-label="Ouvre le profil Instagram de Lucie">
-                    <figure class="button  is-rounded is-responsive is-large">
-                        <span class="icon">
-                            <i class="fa-brands fa-instagram"></i>
-                        </span>
-                    </figure>
-                </a>
-                <a href="https://www.linkedin.com/in/lucieflohic" target="_blank" title="Ouvre le profil Linkedin" aria-label="Ouvre le profil Linkedin de Lucie">
-                    <figure class="button  is-rounded is-responsive is-large">
-                        <span class="icon">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </span>
-                    </figure>
-                </a>
-            </div>
-        </box>
-    </div>
+        <div class="fin" id="Contact">
+            <box class="bordure3">
+                <h5>Contacts</h5>
+                <p>E-mail : lucie.flohicc@gmail.com</p>
+                <div class="rs">
+                    <a href="https://github.com/looucie" target="_blank" title="Ouvre le profil GitHub"
+                        aria-label="Ouvre le profil GitHub de Lucie">
+                        <figure class="button  is-rounded is-responsive is-large">
+                            <span class="icon">
+                                <i class="fa-brands fa-github"></i>
+                            </span>
+                        </figure>
+                    </a>
+                    <a href="https://www.instagram.com/_luuwzz_/" target="_blank" title="Ouvre le profil Instagram"
+                        aria-label="Ouvre le profil Instagram de Lucie">
+                        <figure class="button  is-rounded is-responsive is-large">
+                            <span class="icon">
+                                <i class="fa-brands fa-instagram"></i>
+                            </span>
+                        </figure>
+                    </a>
+                    <a href="https://www.linkedin.com/in/lucieflohic/" target="_blank" title="Ouvre le profil Linkedin"
+                        aria-label="Ouvre le profil Linkedin de Lucie">
+                        <figure class="button  is-rounded is-responsive is-large">
+                            <span class="icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </span>
+                        </figure>
+                    </a>
+                </div>
+            </box>
+        </div>
     </footer>
 
-      <script>
-        document.addEventListener("DOMContentLoaded", function() {
-        const menuButton = document.querySelector(".barres");
-        const menuContent = document.querySelector(".content");
-        const closeButton = document.querySelector(".croix");
-    
-        menuButton.addEventListener("click", function() {
-            menuContent.style.display = "block";
-        });
-    
-        closeButton.addEventListener("click", function() {
-            menuContent.style.display = "none";
-        });
-    });
+    <script>
 
-    var images = ["photos/html.png", "photos/css.png","photos/js.png", "photos/sql.png", "photos/php.png", "photos/figma.png", "photos/afdesign.png", "photos/afphoto.png"]; 
+        var images = ["photos/html.png", "photos/css.png", "photos/js.png", "photos/sql.png", "photos/php.png", "photos/figma.png", "photos/afdesign.png", "photos/afphoto.png"];
         var index = 0;
 
         function showDivs() {
@@ -230,4 +221,5 @@
 
     </script>
 </body>
+
 </html>
