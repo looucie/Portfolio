@@ -61,7 +61,7 @@ h4 {
 /*Accueil
 Navigation*/
 nav {
-    position: fixed;
+    position: fixed !important;
     top: 2%;
     z-index: 3;
     width: 25%;

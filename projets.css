@@ -167,7 +167,10 @@ main {
     gap: 5%;
     justify-content: center;
 }
-
+.projet:hover {
+    filter: brightness(90%);
+    transform: scale(1.06);
+}
 .projet {
     background: #A57D5B;
     border: 1px solid #000000;
@@ -176,6 +179,9 @@ main {
     height: 15em;
     border-radius: 90px;
     position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .projet img {
