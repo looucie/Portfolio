@@ -189,11 +189,12 @@ main {
 }
 
 .projet a {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     color: #FFFFFF;
     margin: 0;
     left : 15%;
     position: relative;
+    top: 5%;
 }
 .projet a:hover {
     text-decoration: underline;
@@ -203,7 +204,7 @@ main {
 .projet button {
     position: absolute;
     right: 2%;
-    top: 50%;
+    top: 55%;
     background: #40271C;
     border: 5px solid black !important;
     border-radius: 50px;
