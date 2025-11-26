@@ -215,7 +215,7 @@ h3 {
     width: 65%;
     height: 25%;
     border-radius: 50px;
-    margin-top: 16%;
+    margin-top: 20%;
     margin-left: 17%;
 }
 
@@ -224,6 +224,7 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 6.25em;
+    margin-bottom: 10%;
 }
 
 .passion {
@@ -258,7 +259,7 @@ h3 {
 
 /*Compétences*/
 .titre3 {
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 0.25em;
 }
 
@@ -435,6 +436,7 @@ h3 {
     width: 100%;
     background-size: cover;
     height: 50em;
+    margin-top: 10%;
 }
 
 .projets {
