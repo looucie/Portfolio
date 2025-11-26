@@ -329,3 +329,251 @@ button, .etapes, .compétences, .outils {
     max-width: 100%;
   }
 }
+
+/* ========== MEDIA QUERIES RESPONSIVE - PAGE DÉTAIL PROJET ========== */
+
+/* Tablettes et petits écrans (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    /* Navigation */
+    nav {
+        width: 40%;
+        left: 30%;
+    }
+
+    /* Titre du projet */
+    .titreprojet h1 {
+        font-size: 4rem !important;
+    }
+
+    .titre_text {
+        width: 35em;
+        height: 10em;
+        left: 3em;
+        top: 9em;
+    }
+
+    .titre_text button {
+        top: 4em;
+        padding: 2% !important;
+    }
+
+    /* Description */
+    .description {
+        padding: 5% !important;
+    }
+
+    .description p {
+        font-size: 1.5rem;
+    }
+
+    /* Etapes et compétences */
+    .etapesetcompé {
+        gap: 15%;
+        padding: 3% 5%;
+    }
+
+    .etapes, .compétences {
+        width: 40%;
+    }
+
+    .etapesetcompé ul {
+        font-size: 1.1rem;
+    }
+
+    /* Outils */
+    .outils {
+        width: 15%;
+        margin-right: 15%;
+    }
+
+    .outils_card {
+        padding: 3% 5%;
+    }
+
+    /* Iframe */
+    center iframe {
+        width: 90%;
+        height: 700px;
+    }
+
+    /* Footer */
+    .bordure3 h5 {
+        font-size: 3em !important;
+    }
+
+    .rs {
+        margin-left: 35% !important;
+    }
+}
+
+/* Mobiles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Logo */
+    .logo .image {
+        width: 64px !important;
+        height: 64px !important;
+    }
+
+    /* Navigation */
+    nav {
+        width: 60%;
+        left: 20%;
+        height: 8%;
+    }
+
+    ul {
+        padding: 0.5%;
+    }
+
+    .bordure p {
+        font-size: 1rem;
+    }
+
+    /* Main */
+    main {
+        padding-top: 15%;
+    }
+
+    /* Titre du projet */
+    .titreprojet {
+        margin-top: 10%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titreprojet img {
+        height: 15em;
+        opacity: 0.3;
+    }
+
+    .titreprojet h1 {
+        font-size: 3rem !important;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 2em;
+    }
+
+    .titre_text {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -8em;
+        z-index: 3;
+    }
+
+    .titre_text button {
+        position: relative;
+        top: 0;
+        margin-top: 1em;
+        padding: 2% 4% !important;
+    }
+
+    /* Description */
+    .description {
+        padding: 5% 3% !important;
+        margin-top: 15%;
+    }
+
+    .description p {
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+
+    /* Etapes et compétences */
+    .etapesetcompé {
+        columns: 1;
+        padding: 5% 5%;
+        gap: 0;
+    }
+
+    .etapes, .compétences {
+        width: 50%;
+        margin: 3% 0;
+        padding: 2% !important;
+    }
+
+    .etapesetcompé ul {
+        font-size: 1.1rem;
+        margin-bottom: 2em;
+        padding-left: 5%;
+    }
+
+    /* Outils */
+    .outils_card {
+        padding: 5% 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5em;
+    }
+
+    .outils {
+        width: 30%;
+        margin: 0;
+        padding: 2% !important;
+    }
+
+    .images_outils {
+        gap: 10%;
+        flex-wrap: wrap;
+    }
+
+    .outils_card img {
+        width: 4em;
+        height: 4em;
+    }
+
+    /* Prototypes */
+    .prototypes {
+        padding: 5% 3%;
+    }
+
+    .prototypes img {
+        width: 100%;
+        max-width: 20em;
+    }
+
+    /* Iframe */
+    center iframe {
+        width: 95%;
+        height: 600px;
+    }
+
+    /* Footer */
+    .fin {
+        height: auto;
+        min-height: 20em;
+        padding-bottom: 2em;
+    }
+
+    .bordure3 {
+        flex-direction: column;
+        column-count: 1;
+        text-align: center;
+    }
+
+    .bordure3 h5 {
+        font-size: 2.5em !important;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .bordure3 p {
+        margin-left: 0 !important;
+        justify-content: center;
+        margin-top: 5%;
+        font-size: 1.2rem;
+    }
+
+    .rs {
+        margin-left: 0 !important;
+        margin-top: 8%;
+        justify-content: center;
+    }
+}
+

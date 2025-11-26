@@ -587,3 +587,372 @@ h8:hover {
     margin-left: 45% !important;
     margin-top: 5%;
 }
+/* ========== MEDIA QUERIES RESPONSIVE ========== */
+
+/* Tablettes et petits écrans (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    /* Navigation */
+    nav {
+        width: 40%;
+        left: 30%;
+    }
+
+    /* Titres principaux */
+    h1 {
+        font-size: 5rem !important;
+        left: 25%;
+        top: 30%;
+    }
+
+    h2 {
+        font-size: 2rem !important;
+        left: 15%;
+    }
+
+    h4 {
+        font-size: 4rem !important;
+        margin-top: 20em;
+    }
+
+    /* Bio section */
+    .moi {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grandep {
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    .petitp {
+        width: 45%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .h {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 4rem !important;
+    }
+
+    /* Compétences */
+    .compétences {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .outils {
+        width: 30%;
+        margin-bottom: 2em;
+    }
+
+    .boites {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .boite {
+        width: 60%;
+        margin-left: 0;
+    }
+
+    /* Projets */
+    .projets {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projet, .projet2, .projet3 {
+        width: 60%;
+        border-radius: 50px;
+    }
+
+    .projet img, .projet2 img, .projet3 img {
+        border-radius: 50px;
+    }
+
+    h8 {
+        left: 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .plus {
+        margin-left: 40%;
+        width: 20%;
+    }
+
+    /* Passions */
+    .passions {
+        gap: 2em;
+        flex-wrap: wrap;
+    }
+
+    .passion {
+        width: 12em;
+        height: 28em;
+    }
+
+    /* Formation */
+    .bordure2 {
+        flex-direction: column;
+        column-count: 1;
+    }
+
+    .ligne {
+        width: 80%;
+        margin: 1em auto;
+    }
+}
+
+/* Mobiles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Logo */
+    .logo .image {
+        width: 64px !important;
+        height: 64px !important;
+    }
+
+    /* Navigation */
+    nav {
+        width: 60%;
+        left: 20%;
+        height: 8%;
+    }
+
+    ul {
+        flex-direction: row;
+        padding: 0.5%;
+    }
+
+    li a p {
+        font-size: 0.9rem !important;
+    }
+
+    /* Titres principaux */
+    .mainpage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        padding: 0 5%;
+        margin-top: 10%;
+    }
+
+    .horloge {
+        width: 0%;
+        margin-top: 0;
+    }
+
+    h1 {
+        position: relative;
+        left: 0;
+        top: 0;
+        font-size: 4rem !important;
+        text-align: left;
+        margin-top: 0;
+    }
+
+    h2 {
+        position: absolute;
+        left: 45%;
+        top: 65%;
+        font-size: 1.8rem !important;
+        text-align: left;
+    }
+
+    h4 {
+        font-size: 3rem !important;
+        margin-top: 15em;
+    }
+
+    /* Bio */
+    .Bio {
+        height: auto;
+        min-height: 90%;
+    }
+
+    .moi {
+        flex-direction: column;
+    }
+
+    .grandep {
+        width: 80%;
+        height: auto;
+        transform: rotate(0deg);
+    }
+
+    .petitp {
+        width: 0%;
+    }
+
+    .h {
+        margin: 5%;
+    }
+
+    h3 {
+        font-size: 3rem !important;
+    }
+
+    .h p {
+        font-size: 1.2rem !important;
+    }
+
+    .cv {
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    /* Compétences */
+    .compétences {
+        margin-left: 0;
+    }
+
+    .outils {
+        width: 50%;
+        height: 25em;
+    }
+
+    .foncé {
+        height: 23em;
+    }
+
+    .gris {
+        height: 21em;
+    }
+
+    .principale, .secondaire {
+        width: 4em;
+        height: 4em;
+    }
+
+    .boites {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .boite {
+        width: 90%;
+        height: auto;
+        min-height: 6em;
+        margin-left: 0;
+    }
+
+    .boite2 p {
+        font-size: 1.2rem !important;
+        padding: 1em;
+        text-align: center;
+    }
+
+    /* Projets */
+    .teddy {
+        height: auto;
+        padding-bottom: 5em;
+    }
+
+    .projets {
+        gap: 2em;
+        margin-top: 5%;
+    }
+
+    .projet, .projet2, .projet3 {
+        width: 80%;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .projet img, .projet2 img, .projet3 img {
+        height: 15em;
+        width: 90%;
+        border-radius: 30px;
+    }
+
+    h8 {
+        font-size: 1.3rem !important;
+    }
+
+    .plus {
+        margin-left: 35%;
+        width: 30%;
+        font-size: 1.2rem;
+    }
+
+    /* Centres d'intérêts */
+    .back {
+        width: 0%;
+    }
+
+    .passions {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .passion {
+        width: 14em;
+        height: 30em;
+    }
+
+    /* Formation */
+    .Formation {
+        height: auto;
+        padding-bottom: 2em;
+    }
+
+    .bordure2 {
+        flex-direction: column;
+        column-count: 1;
+        padding: 1em;
+    }
+
+    .ligne {
+        width: 90%;
+        height: auto;
+        min-height: 9.4em;
+        margin: 1em 0;
+    }
+
+    .bordure2 p {
+        font-size: 1.1rem !important;
+    }
+
+    /* Footer */
+    .fin {
+        height: auto;
+        min-height: 20em;
+        padding-bottom: 2em;
+    }
+
+    .bordure3 {
+        flex-direction: column;
+        column-count: 1;
+        text-align: center;
+    }
+
+    .bordure3 h5 {
+        font-size: 2.5em !important;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .bordure3 p {
+        margin-left: 0 !important;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    .rs {
+        margin-left: 0 !important;
+        margin-top: 8%;
+        justify-content: center;
+    }
+}
