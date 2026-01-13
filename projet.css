@@ -277,12 +277,21 @@ button, .etapes, .compétences, .outils {
     height: 5em;
 }
 
-.prototypes {
+.prototypes{
     padding: 3% 5%;
 }
 
 .prototypes img {
     width: 20em;
+}
+
+video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid black 5px;
 }
 
 * {
